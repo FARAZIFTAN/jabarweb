@@ -9,7 +9,7 @@ const destinations = [
 		description:
 			'Pulau Biawak adalah destinasi tersembunyi yang menawarkan keindahan alam laut yang masih alami, habitat komodo kecil (biawak), burung langka, pantai berpasir putih, dan mercusuar peninggalan Belanda.',
 		price: 'Rp 5.000 - Rp 15.000 (kapal Rp 200.000 - Rp 500.000)',
-		image: 'src/assets/images/pulau-biawak.jpg',
+		image: 'https://awsimages.detik.net.id/community/media/visual/2023/02/02/wisata-pulau-biawak-indramayu-harga-tiket-dan-lokasinya-1_169.jpeg?w=620',
 		maps: 'https://maps.app.goo.gl/VHVTKz42C3Jspd7HA',
 	},
 	{
@@ -18,7 +18,7 @@ const destinations = [
 		description:
 			'Laguna alami dikelilingi bebatuan purba, air jernih kehijauan, kolam eksotis, dan formasi batu karst yang memukau. Cocok untuk healing dan refreshing.',
 		price: 'Rp 10.000 - Rp 15.000',
-		image: 'src/assets/images/Sanghyang-Heuleut.jpg',
+		image: 'https://wartaparahyangan.com/wp-content/uploads/2022/07/IMG_20220717_091257.jpg',
 		maps: 'https://maps.app.goo.gl/5pYETysE49dFYXLw6',
 	},
 	{
@@ -27,7 +27,7 @@ const destinations = [
 		description:
 			'Tebing kapur spektakuler dengan aktivitas flying fox, rock climbing, dan fotografi landscape. Spot pre-wedding yang instagramable.',
 		price: 'Rp 20.000 - Rp 30.000',
-		image: 'src/assets/images/Tebing-Citatah.jpg',
+		image: 'https://ksmtour.com/media/images/articles14/tebing-citatah-jawa-barat.jpg',
 		maps: 'https://maps.app.goo.gl/yVRUd5J6dPzMYa4d9',
 	},
 	{
@@ -36,7 +36,7 @@ const destinations = [
 		description:
 			'Situs megalitikum terbesar di Asia Tenggara, trekking menantang, pemandangan perbukitan hijau, dan energi spiritual yang kuat.',
 		price: 'Rp 10.000 - Rp 20.000',
-		image: 'src/assets/images/gunung.jpg',
+		image: 'https://upload.wikimedia.org/wikipedia/commons/c/c8/Situs_Megalitikum_Gunung_Padang_Cianjur.jpg',
 		maps: 'https://maps.app.goo.gl/Y4wfocDz65L8nMVB9',
 	},
 	{
@@ -45,7 +45,7 @@ const destinations = [
 		description:
 			'Air terjun tersembunyi dengan kolam alami jernih, trekking 30-45 menit, cocok untuk berenang dan menyegarkan diri.',
 		price: 'Rp 5.000 - Rp 10.000',
-		image: 'src/assets/images/curug.jpg',
+		image: 'https://assets-a1.kompasiana.com/items/album/2022/11/11/whatsapp-image-2022-11-11-at-05-35-14-1-636da93e49434703110c4c82.jpeg?t=o&v=770',
 		maps: 'https://maps.app.goo.gl/6EHNpLGFj7sQ9ceWA',
 	},
 	{
@@ -54,7 +54,7 @@ const destinations = [
 		description:
 			'Pemandangan 360 derajat, sunrise dan sunset spektakuler, spot camping, dan meditasi di alam terbuka.',
 		price: 'Rp 7.000',
-		image: 'src/assets/images/bukit.jpeg',
+		image: 'https://static.promediateknologi.id/crop/0x0:0x0/0x0/webp/photo/p2/251/2024/10/01/wisata-bukit-panembongan-767977074.jpg',
 		maps: 'https://maps.app.goo.gl/SPcankR1C5FwWbdx9',
 	},
 	{
@@ -63,7 +63,7 @@ const destinations = [
 		description:
 			'Pantai unik dengan formasi batu kapur berlubang, pasir hitam vulkanik, dan suasana alami yang tenang.',
 		price: 'Rp 10.000 - Rp 15.000',
-		image: 'src/assets/images/pantai.jpg',
+		image: 'https://disparbud.kebumenkab.go.id/assets/images/post/disparbud_kebumenkab_go_id_031022-4.jpg',
 		maps: 'https://maps.app.goo.gl/qoBMkcow6hUM23Q5A',
 	},
 	{
@@ -72,7 +72,7 @@ const destinations = [
 		description:
 			'Air terjun, pemandian air panas, hutan pinus, area camping, hiking, dan forest bathing.',
 		price: 'Rp 30.000 - Rp 50.000',
-		image: 'src/assets/images/maribaya.jpg',
+		image: 'https://cozzy.id/uploads/0000/630/2024/08/15/cozzyid-hotel-murah-hotel-terdekat-penginapan-murah-penginapan-terdekat-booking-hotel-the-lodge-maribaya-surga-wisata-alam-di-lembang-sumber-gambar-superlive.jpg',
 		maps: 'https://maps.app.goo.gl/amNsaEArvXEhUfLi6',
 	},
 	{
@@ -81,7 +81,7 @@ const destinations = [
 		description:
 			'Waduk terbesar di Indonesia, berperahu, memancing, sunset, dan spot Pulau Situ Buleud.',
 		price: 'Rp 15.000 - Rp 25.000',
-		image: 'src/assets/images/waduk.jpg',
+		image: 'https://ik.imagekit.io/tvlk/blog/2022/05/Wisata-Waduk-Jatiluhur.jpg?tr=q-70,c-at_max,w-500,h-300,dpr-2',
 		maps: 'https://maps.app.goo.gl/HRoAeaLVacqzyPi17',
 	},
 	{
@@ -90,7 +90,7 @@ const destinations = [
 		description:
 			'Gunung berapi aktif, kawah spektakuler, Surya Kencana, hutan mati, dan trekking mudah untuk pemula.',
 		price: 'Rp 20.000 - Rp 30.000',
-		image: 'src/assets/images/papandayangan.jpeg',
+		image: 'https://inforadar.disway.id/upload/c0e7e8817cf42a2d0b86c4640836425b.jpg',
 		maps: 'https://maps.app.goo.gl/bBLQgJTcYAzxJDRv9',
 	},
 	{
@@ -99,7 +99,7 @@ const destinations = [
 		description:
 			'Hutan lindung dengan keanekaragaman hayati, trekking, birdwatching, dan air terjun tersembunyi.',
 		price: 'Rp 10.000 - Rp 15.000',
-		image: 'src/assets/images/hutan.jpg',
+		image: 'https://assets.promediateknologi.id/crop/0x0:0x0/0x0/webp/photo/p3/103/2024/09/01/2151794721-3185472340.jpg',
 		maps: 'https://maps.app.goo.gl/JpnGm54pAwZCtmeF8',
 	},
 	{
@@ -108,7 +108,7 @@ const destinations = [
 		description:
 			'Danau buatan, perkebunan teh, berperahu, camping, dan spot fotografi romantis.',
 		price: 'Rp 15.000 - Rp 25.000',
-		image: 'src/assets/images/danau.jpg',
+		image: 'https://7bd86aba206a59981820-a1471e32c826f82a376e3a3b16604284.ssl.cf6.rackcdn.com/2015/11/danau-cileunca.jpg',
 		maps: 'https://maps.app.goo.gl/fyymBDsynpAd3XEN9',
 	},
 	{
@@ -117,7 +117,7 @@ const destinations = [
 		description:
 			'Air terjun dengan fenomena pelangi alami, trekking ringan, gazebo, dan spot foto menarik.',
 		price: 'Rp 15.000 - Rp 20.000',
-		image: 'src/assets/images/curug-cimahi.jpg',
+		image: 'https://cnc-magazine.oramiland.com/parenting/images/124654842_795190731327115_2569341.width-800.format-webp.webp',
 		maps: 'https://maps.app.goo.gl/qmppV1zTGnPYWoqY7',
 	},
 	{
@@ -126,7 +126,7 @@ const destinations = [
 		description:
 			'Kebun binatang kecil di pedesaan, koleksi satwa, bungalow, dan pengalaman konservasi satwa.',
 		price: 'Rp 20.000 - Rp 35.000',
-		image: 'src/assets/images/taman.jpg',
+		image: 'https://img.kliknusae.com/uploads/2021/11/Papandayan.jpg',
 		maps: 'https://maps.app.goo.gl/QZ9d5kTdi5PuM8HM7',
 	},
 	{
@@ -135,7 +135,7 @@ const destinations = [
 		description:
 			'Hutan pinus dan koleksi anggrek langka, 157 jenis anggrek, suasana sejuk dan asri.',
 		price: 'Cek ke pengelola',
-		image: 'src/assets/images/forest.jpg',
+		image: 'https://idetrips.com/wp-content/uploads/2019/01/orchid-forest-cikole-3.jpg',
 		maps: 'https://maps.app.goo.gl/CcMvgiusXiPW9oaF6',
 	},
 ];

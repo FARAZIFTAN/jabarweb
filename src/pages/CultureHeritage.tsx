@@ -4,12 +4,12 @@ const sections = [
 	{
 		title: 'Warisan Budaya yang Kaya dan Lestari',
 		text: `Jawa Barat memiliki kekayaan budaya yang diwariskan turun-temurun. Kesenian tradisional seperti angklung, wayang golek, jaipong, serta bahasa Sunda yang digunakan luas dalam kehidupan sehari-hari, menjadi cerminan harmoni antara warisan leluhur dan semangat modernisasi. Setiap daerah memiliki ciri khas budaya, seperti upacara adat Seren Taun di Kuningan dan Ngaben Dayeuh di Garut, yang membuktikan hidupnya nilai-nilai kearifan lokal.`,
-		image: 'https://images.pexels.com/photos/1643381/pexels-photo-1643381.jpeg?auto=compress&cs=tinysrgb&w=1920&q=80',
+		image: 'https://static.promediateknologi.id/crop/0x0:0x0/750x500/webp/photo/p1/945/2024/02/17/IMG-20240217-WA0042-757673989.jpg',
 	},
 	{
 		title: 'Jejak Sejarah yang Membentuk Identitas',
 		text: `Sejarah panjang Jawa Barat membentuk identitas masyarakatnya. Dari era Kerajaan Sunda Galuh dan Pajajaran, masa kolonial Belanda, hingga perjuangan kemerdekaan, wilayah ini menjadi saksi penting dinamika sejarah Indonesia. Bangunan bersejarah seperti Gedung Sate, Keraton Kasepuhan Cirebon, dan Museum Sri Baduga memadukan arsitektur kolonial dan nilai tradisional yang tetap lestari.`,
-		image: 'https://images.pexels.com/photos/2081199/pexels-photo-2081199.jpeg?auto=compress&cs=tinysrgb&w=1920&q=80',
+		image: 'https://static.promediateknologi.id/crop/0x0:0x0/750x500/webp/photo/p1/959/2024/02/18/gs-4-4022695196.jpg',
 	},
 	{
 		title: 'Tradisi dan Alam yang Terjaga',
@@ -25,14 +25,14 @@ const sections = [
 
 const CultureHeritage = () => {
 	return (
-		<div className="min-h-screen w-full">
-			<div className="relative py-16 bg-[url('https://images.pexels.com/photos/417173/pexels-photo-417173.jpeg?auto=compress&cs=tinysrgb&w=1920&q=80')] bg-cover bg-center">
-				<div className="absolute inset-0 bg-black/50 backdrop-blur-md"></div>
-				<div className="relative max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-					<h1 className="text-4xl md:text-5xl font-bold text-white mb-12 text-center drop-shadow-lg">
-						Budaya & Sejarah - Jawa Barat Lestari
-					</h1>
-					<div className="space-y-12">
+	   <div className="min-h-screen w-full">
+		   <div className="relative pt-32 pb-16 bg-[url('https://images.pexels.com/photos/417173/pexels-photo-417173.jpeg?auto=compress&cs=tinysrgb&w=1920&q=80')] bg-cover bg-center">
+			   <div className="absolute inset-0 bg-black/50 backdrop-blur-md"></div>
+			   <div className="relative max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+				   <h1 className="text-4xl md:text-5xl font-bold text-white mb-12 text-center drop-shadow-lg pt-8">
+					   Budaya & Sejarah - Jawa Barat Lestari
+				   </h1>
+				   <div className="space-y-12">
 						{sections.map((sec, idx) => (
 							<div
 								key={idx}

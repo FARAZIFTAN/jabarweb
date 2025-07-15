@@ -46,7 +46,7 @@ const Home = () => {
     {
       title: "Warisan Budaya & Sejarah",
       description: "Telusuri kekayaan budaya dan sejarah Jawa Barat melalui situs kerajaan kuno dan komunitas beragam. Kunjungi candi, museum, dan tempat bersejarah yang menjaga memori kolektif sekaligus memperkuat pemahaman budaya.",
-      image: "https://images.pexels.com/photos/2577274/pexels-photo-2577274.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      image: "https://jogja.disway.id/upload/dbc2706fe0749df8a91f3cf5f9820a50.jpg",
       imageAlt: "Candi kuno di Jawa Barat",
       imageOnLeft: true,
       ctaText: "Jelajahi Warisan",
@@ -97,7 +97,7 @@ const Home = () => {
                 </div>
               </div>
               <div className="mt-2">
-                <button className="bg-emerald-600 hover:bg-emerald-700 transition text-white px-5 py-2 rounded-lg font-bold shadow-lg text-base">Belajar Lestari</button>
+                {/* Button 'Belajar Lestari' dihapus sesuai permintaan */}
               </div>
             </div>
             <div className="hidden md:flex justify-center relative z-20">
@@ -144,7 +144,7 @@ const Home = () => {
                 </div>
               </div>
               <div className="mt-2">
-                <button className="bg-emerald-600 hover:bg-emerald-700 transition text-white px-5 py-2 rounded-lg font-bold shadow-lg text-base">Gabung Gerakan</button>
+                {/* Button 'Gabung Gerakan' dihapus sesuai permintaan */}
               </div>
               <p className="text-gray-600 mt-4 text-sm">Kampanye melibatkan sekolah, komunitas, UMKM, dan masyarakat umum. Setiap orang dapat mendaftar sebagai relawan, membuat inisiatif lokal, atau berdonasi untuk kegiatan pelestarian.</p>
             </div>
@@ -165,7 +165,7 @@ const Home = () => {
               <div className={`w-full md:w-1/2 ${section.imageOnLeft ? 'order-2' : 'order-1'} flex flex-col justify-center gap-3 relative z-20 p-6 md:p-10`}>
                 <h3 className="text-2xl font-bold text-green-900 mb-1">{section.title}</h3>
                 <p className="text-gray-800 mb-2 text-base md:text-lg">{section.description}</p>
-                <button className="bg-emerald-600 hover:bg-emerald-700 transition text-white px-5 py-2 rounded-lg font-bold shadow text-base w-fit">{section.ctaText}</button>
+                <button onClick={section.ctaAction} className="bg-emerald-600 hover:bg-emerald-700 transition text-white px-5 py-2 rounded-lg font-bold shadow text-base w-fit">{section.ctaText}</button>
               </div>
             </div>
           ))}

@@ -4,26 +4,35 @@ import { Facebook, Instagram, Twitter, Mail, Phone, MapPin, Leaf } from 'lucide-
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-900 text-white">
+    <footer
+      className="relative text-white"
+      style={{
+        backgroundImage: 'url(https://images.pexels.com/photos/167684/pexels-photo-167684.jpeg?auto=compress&cs=tinysrgb&w=1920&q=80)', // Gambar HD dari Hero Sustainable Destination
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat',
+        filter: 'brightness(0.7)', // Agar font putih tetap kontras
+      }}
+    >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Logo and Description */}
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
               <Leaf className="h-8 w-8 text-green-500" />
-              <span className="text-xl font-bold">EcoJabar</span>
+            <span className="text-xl font-bold drop-shadow-lg" style={{textShadow: '2px 2px 8px rgba(0,0,0,0.7)'}}>EcoJabar</span>
             </div>
-            <p className="text-gray-400 text-sm">
+            <p className="text-white text-sm drop-shadow-lg" style={{textShadow: '2px 2px 8px rgba(0,0,0,0.7)'}}>
               Discover the beauty of West Java through sustainable tourism. Experience nature, culture, and tradition while preserving our environment for future generations.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="text-gray-400 hover:text-green-500 transition-colors">
+              <a href="#" className="text-white hover:text-green-500 transition-colors" title="Facebook">
                 <Facebook size={20} />
               </a>
-              <a href="#" className="text-gray-400 hover:text-green-500 transition-colors">
+              <a href="#" className="text-white hover:text-green-500 transition-colors" title="Instagram">
                 <Instagram size={20} />
               </a>
-              <a href="#" className="text-gray-400 hover:text-green-500 transition-colors">
+              <a href="#" className="text-white hover:text-green-500 transition-colors" title="Twitter">
                 <Twitter size={20} />
               </a>
             </div>
@@ -31,71 +40,39 @@ const Footer = () => {
 
           {/* Quick Links */}
           <div>
-            <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
+            <h3 className="text-lg font-semibold mb-4 drop-shadow-lg" style={{textShadow: '2px 2px 8px rgba(0,0,0,0.7)'}}>Quick Links</h3>
             <ul className="space-y-2">
-              <li><Link to="/" className="text-gray-400 hover:text-green-500 transition-colors">Home</Link></li>
-              <li><Link to="/destinations" className="text-gray-400 hover:text-green-500 transition-colors">Destinations</Link></li>
-              <li><Link to="/experience" className="text-gray-400 hover:text-green-500 transition-colors">Experiences</Link></li>
-              <li><Link to="/events" className="text-gray-400 hover:text-green-500 transition-colors">Events</Link></li>
-              <li><Link to="/gastronomy" className="text-gray-400 hover:text-green-500 transition-colors">Gastronomy</Link></li>
+              <li><Link to="/" className="text-white hover:text-green-500 transition-colors drop-shadow-lg" style={{textShadow: '2px 2px 8px rgba(0,0,0,0.7)'}}>Home</Link></li>
+              <li><Link to="/destinations" className="text-white hover:text-green-500 transition-colors drop-shadow-lg" style={{textShadow: '2px 2px 8px rgba(0,0,0,0.7)'}}>Destinations</Link></li>
+              <li><Link to="/experience" className="text-white hover:text-green-500 transition-colors drop-shadow-lg" style={{textShadow: '2px 2px 8px rgba(0,0,0,0.7)'}}>Experiences</Link></li>
+              <li><Link to="/events" className="text-white hover:text-green-500 transition-colors drop-shadow-lg" style={{textShadow: '2px 2px 8px rgba(0,0,0,0.7)'}}>Events</Link></li>
+              <li><Link to="/gastronomy" className="text-white hover:text-green-500 transition-colors drop-shadow-lg" style={{textShadow: '2px 2px 8px rgba(0,0,0,0.7)'}}>Gastronomy</Link></li>
             </ul>
           </div>
 
           {/* Contact Information */}
           <div>
-            <h3 className="text-lg font-semibold mb-4">Contact Info</h3>
+            <h3 className="text-lg font-semibold mb-4 drop-shadow-lg" style={{textShadow: '2px 2px 8px rgba(0,0,0,0.7)'}}>Contact Info</h3>
             <div className="space-y-2">
               <div className="flex items-center space-x-2">
                 <MapPin size={16} className="text-green-500" />
-                <span className="text-gray-400 text-sm">Bandung, West Java, Indonesia</span>
+                <span className="text-white text-sm drop-shadow-lg" style={{textShadow: '2px 2px 8px rgba(0,0,0,0.7)'}}>Bandung, West Java, Indonesia</span>
               </div>
               <div className="flex items-center space-x-2">
                 <Phone size={16} className="text-green-500" />
-                <span className="text-gray-400 text-sm">+62 22 1234 5678</span>
+                <span className="text-white text-sm drop-shadow-lg" style={{textShadow: '2px 2px 8px rgba(0,0,0,0.7)'}}>+62 22 1234 5678</span>
               </div>
               <div className="flex items-center space-x-2">
                 <Mail size={16} className="text-green-500" />
-                <span className="text-gray-400 text-sm">info@ecojabar.com</span>
+                <span className="text-white text-sm drop-shadow-lg" style={{textShadow: '2px 2px 8px rgba(0,0,0,0.7)'}}>info@ecojabar.com</span>
               </div>
             </div>
           </div>
 
-          {/* Newsletter */}
-          <div>
-            <h3 className="text-lg font-semibold mb-4">Newsletter</h3>
-            <p className="text-gray-400 text-sm mb-4">
-              Subscribe to get updates about sustainable tourism in West Java.
-            </p>
-            <form className="space-y-2">
-              <input
-                type="email"
-                placeholder="Enter your email"
-                className="w-full px-3 py-2 bg-gray-800 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500"
-              />
-              <button
-                type="submit"
-                className="w-full bg-green-600 text-white py-2 rounded-lg hover:bg-green-700 transition-colors"
-              >
-                Subscribe
-              </button>
-            </form>
-          </div>
+          {/* ...Newsletter section removed... */}
         </div>
 
-        {/* Bottom Section */}
-        <div className="mt-8 pt-8 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center">
-          <p className="text-gray-400 text-sm">
-            © 2024 EcoJabar. All rights reserved.
-          </p>
-          <div className="flex space-x-6 mt-4 md:mt-0">
-            <Link to="/privacy" className="text-gray-400 hover:text-green-500 text-sm transition-colors">
-              Privacy Policy
-            </Link>
-            <Link to="/terms" className="text-gray-400 hover:text-green-500 text-sm transition-colors">
-              Terms of Service
-            </Link>
-          </div>
-        </div>
+        {/* ...copyright and policy links removed... */}
       </div>
     </footer>
   );

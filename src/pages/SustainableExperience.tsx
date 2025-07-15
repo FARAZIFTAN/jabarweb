@@ -3,79 +3,128 @@ import Hero from '../components/Hero';
 import { MapPin, DollarSign, ChevronLeft, ChevronRight } from 'lucide-react';
 
 const experiences = [
-	{
-		title: 'Workshop Batik Tradisional Trusmi',
-		location: 'Desa Trusmi, Kecamatan Plered, Kabupaten Cirebon',
-		price: 'Rp 75.000 - Rp 150.000',
-		description:
-			'Belajar seni batik tulis dari pengrajin lokal, menggunakan bahan alami yang ramah lingkungan dan mendukung ekonomi kreatif serta pelestarian tradisi batik Cirebon.',
-		image: 'https://images.pexels.com/photos/2081199/pexels-photo-2081199.jpeg?auto=compress&cs=tinysrgb&w=800&q=80',
-		maps: 'https://maps.app.goo.gl/z5LU5cFk6HntW9UX9',
-	},
-	{
-		title: 'Cycling Tour Jalur Hijau Bandung',
-		location: 'Rute Dago - Lembang - Subang, Kabupaten Bandung',
-		price: 'Rp 100.000 - Rp 200.000',
-		description:
-			'Bersepeda di jalur hijau pegunungan, mendukung transportasi ramah lingkungan dan pariwisata berkelanjutan dengan melibatkan komunitas lokal.',
-		image: 'https://images.pexels.com/photos/461940/pexels-photo-461940.jpeg?auto=compress&cs=tinysrgb&w=800&q=80',
-		maps: '',
-	},
-	{
-		title: 'Pertunjukan Wayang Kulit Interaktif',
-		location: 'Pendopo Kabupaten Sumedang, Jalan Prabu Gajah Agung',
-		price: 'Rp 25.000 - Rp 50.000',
-		description:
-			'Pengalaman budaya mendalam, belajar filosofi Jawa, teknik dalang, dan gamelan sambil mendukung pelestarian seni tradisional.',
-		image: 'https://images.pexels.com/photos/1643381/pexels-photo-1643381.jpeg?auto=compress&cs=tinysrgb&w=800&q=80',
-		maps: '',
-	},
-	{
-		title: 'Eco-Cycling di Kawasan Geopark Ciletuh',
-		location: 'Geopark Ciletuh, Kabupaten Sukabumi',
-		price: 'Rp 125.000 - Rp 250.000',
-		description:
-			'Bersepeda sambil belajar geologi dan konservasi lingkungan, mendukung community-based tourism dan konservasi geologi.',
-		image: 'https://images.pexels.com/photos/417173/pexels-photo-417173.jpeg?auto=compress&cs=tinysrgb&w=800&q=80',
-		maps: 'https://www.google.com/maps/dir//CILETUH+GEOPARK,+Ciwaru,+Ciemas,+Sukabumi+Regency,+West+Java+43177/@-7.1813863,106.4604095,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x2e42a174c692426f:0xb63a761249266e9f!2m2!1d106.4628179!2d-7.1812356?entry=ttu&g_ep=EgoyMDI1MDcwOS4wIKXMDSoASAFQAw%3D%3D',
-	},
-	{
-		title: 'Workshop Kerajinan Bambu Berkelanjutan',
-		location: 'Desa Rajapolah, Kecamatan Rajapolah, Kabupaten Tasikmalaya',
-		price: 'Rp 60.000 - Rp 120.000',
-		description:
-			'Belajar membuat produk bambu ramah lingkungan, mendukung ekonomi kreatif lokal dan prinsip circular economy.',
-		image: 'https://images.pexels.com/photos/461940/pexels-photo-461940.jpeg?auto=compress&cs=tinysrgb&w=800&q=80',
-		maps: 'https://maps.app.goo.gl/XufxrurgasH1fZXFA',
-	},
-	{
-		title: 'Organic Farm Experience',
-		location: 'Floating Market Lembang, Jalan Grand Hotel Lembang',
-		price: 'Rp 80.000 - Rp 160.000',
-		description:
-			'Pengalaman pertanian organik, belajar teknik bercocok tanam tanpa pestisida, mendukung petani lokal dan edukasi urban farming.',
-		image: 'https://images.pexels.com/photos/753626/pexels-photo-753626.jpeg?auto=compress&cs=tinysrgb&w=800&q=80',
-		maps: 'https://maps.app.goo.gl/FEAhmDDM5EVWZKcb7',
-	},
-	{
-		title: 'Traditional Pottery Workshop',
-		location: 'Desa Plered, Kecamatan Plered, Kabupaten Purwakarta',
-		price: 'Rp 50.000 - Rp 100.000',
-		description:
-			'Belajar membuat keramik dengan teknik tradisional, mendukung pelestarian kerajinan dan pemberdayaan pengrajin lokal.',
-		image: 'https://images.pexels.com/photos/2081199/pexels-photo-2081199.jpeg?auto=compress&cs=tinysrgb&w=800&q=80',
-		maps: 'https://maps.app.goo.gl/msWXuXKvUVBW1P6V8',
-	},
-	{
-		title: 'Cycling Heritage Trail',
-		location: 'Rute Braga - Asia Afrika - Alun-alun Bandung',
-		price: 'Rp 75.000 - Rp 150.000',
-		description:
-			'Bersepeda menjelajahi sejarah dan arsitektur kota Bandung, mendukung local businesses dan edukasi urban heritage.',
-		image: 'https://images.pexels.com/photos/417142/pexels-photo-417142.jpeg?auto=compress&cs=tinysrgb&w=800&q=80',
-		maps: 'https://maps.app.goo.gl/16sVkVs3xWgsmK657',
-	},
-];
+// ...existing code...
+  {
+	title: 'Workshop Batik Tradisional Trusmi, Cirebon',
+	location: 'Desa Trusmi, Cirebon',
+	price: 'Rp 75.000 - Rp 150.000',
+	description: 'Belajar batik tulis dari pengrajin lokal dengan bahan alami dan filosofi motif.',
+	image: 'https://jogjakonveksi.id/wp-content/uploads/2023/04/batik-trusmi-cirebon.jpg',
+	maps: '',
+  },
+  {
+	title: 'Cycling Tour Jalur Hijau Bandung',
+	location: 'Dago - Lembang - Subang',
+	price: 'Rp 100.000 - Rp 200.000',
+	description: 'Bersepeda di jalur hijau pegunungan, mendukung transportasi ramah lingkungan.',
+	image: 'https://assets-a1.kompasiana.com/items/album/2022/06/28/3d365ecf-aebc-4789-83e1-19caf7d752db-62ba750e533a0d38fa05b732.jpg?t=o&v=780',
+	maps: '',
+  },
+  {
+	title: 'Pertunjukan Wayang Kulit Interaktif, Sumedang',
+	location: 'Pendopo Sumedang',
+	price: 'Rp 25.000 - Rp 50.000',
+	description: 'Belajar filosofi Jawa dan teknik dalang dalam pertunjukan wayang kulit.',
+	image: 'https://cdn.rri.co.id/berita/Surakarta/o/1724685531424-cmswygklt/rs2jzr7425dx9qa.jpeg',
+	maps: '',
+  },
+  {
+	title: 'Eco-Cycling Geopark Ciletuh',
+	location: 'Geopark Ciletuh, Sukabumi',
+	price: 'Rp 125.000 - Rp 250.000',
+	description: 'Bersepeda sambil belajar geologi dan konservasi lingkungan.',
+	image: 'https://www.beritainspiratif.com/assets/uploads/2022/08/1tlazbr5d93qd_mid.jpg',
+	maps: '',
+  },
+  {
+	title: 'Workshop Kerajinan Bambu, Tasikmalaya',
+	location: 'Rajapolah, Tasikmalaya',
+	price: 'Rp 60.000 - Rp 120.000',
+	description: 'Belajar membuat produk bambu ramah lingkungan dan inovasi desain.',
+	image: 'https://i0.wp.com/jnewsonline.com/wp-content/uploads/2025/03/anyaman-bambu-2.jpg?resize=1000%2C600&ssl=1',
+	maps: '',
+  },
+  {
+	title: 'Organic Farm Experience, Lembang',
+	location: 'Floating Market Lembang',
+	price: 'Rp 80.000 - Rp 160.000',
+	description: 'Belajar pertanian organik, teknik tanam tanpa pestisida, dan urban farming.',
+	image: 'https://s-light.tiket.photos/t/01E25EBZS3W0FY9GTG6C42E1SE/t_htl-dskt/tix-hotel/images-web/2025/03/05/757d22bb-98ec-41bc-93c6-112b2ed95019-1741158906606-734715f17db3f2f7fa9812df679390eb.jpg',
+	maps: '',
+  },
+  {
+	title: 'Pottery Workshop, Plered',
+	location: 'Desa Plered, Purwakarta',
+	price: 'Rp 50.000 - Rp 100.000',
+	description: 'Belajar membuat keramik tradisional dari tanah liat lokal.',
+	image: 'https://static.wixstatic.com/media/nsplsh_a04d825adfa34231b31db9d087c89ff1~mv2.jpg/v1/fill/w_568,h_378,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/nsplsh_a04d825adfa34231b31db9d087c89ff1~mv2.jpg',
+	maps: '',
+  },
+  {
+	title: 'Cycling Coffee Plantation Tour, Pangalengan',
+	location: 'Pangalengan, Bandung',
+	price: 'Rp 150.000 - Rp 300.000',
+	description: 'Bersepeda di perkebunan kopi dan belajar proses kopi berkelanjutan.',
+	image: 'https://paketwisatabandung.id/wp-content/uploads/2025/01/62307b1d47185.jpg',
+	maps: '',
+  },
+  {
+	title: 'Weaving Workshop, Garut',
+	location: 'Sentra Tenun Garut',
+	price: 'Rp 70.000 - Rp 140.000',
+	description: 'Belajar tenun tradisional dan teknik pewarnaan alami.',
+	image: 'https://bnsd.binus.ac.id/wp-content/uploads/2022/06/03.jpg',
+	maps: '',
+  },
+  {
+	title: 'Wayang Golek Performance, Bogor',
+	location: 'Taman Budaya Bogor',
+	price: 'Rp 30.000 - Rp 60.000',
+	description: 'Menonton dan belajar memainkan wayang golek Sunda.',
+	image: 'https://img.inews.co.id/media/1200/files/inews_new/2022/06/30/wayang_golek.jpg',
+	maps: '',
+  },
+  {
+	title: 'Sustainable Fishing Experience, Palabuhanratu',
+	location: 'Palabuhanratu, Sukabumi',
+	price: 'Rp 100.000 - Rp 200.000',
+	description: 'Menangkap ikan dengan teknik tradisional ramah lingkungan.',
+	image: 'https://images.elearncollege.com/wp-content/uploads/2024/05/347.webp',
+	maps: '',
+  },
+  {
+	title: 'Eco-Art Installation Workshop, Bandung',
+	location: 'Tahura Djuanda, Bandung',
+	price: 'Rp 90.000 - Rp 180.000',
+	description: 'Membuat instalasi seni dari material daur ulang dan upcycling.',
+	image: 'https://easy-peasy.ai/cdn-cgi/image/quality=80,format=auto,width=700/https://media.easy-peasy.ai/6c494b12-a069-48ce-bd68-3124331a56d6/dbb281c6-c423-4afc-ac9a-aeed7a8936fe.png',
+	maps: '',
+  },
+  {
+	title: 'Music & Dance Performance, Cirebon',
+	location: 'Keraton Kasepuhan, Cirebon',
+	price: 'Rp 40.000 - Rp 80.000',
+	description: 'Menonton dan belajar seni musik serta tari tradisional Cirebon.',
+	image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Beautiful_of_mask_dance_cirebon.jpg/1200px-Beautiful_of_mask_dance_cirebon.jpg',
+	maps: '',
+  },
+  {
+	title: 'Beekeeping Experience, Subang',
+	location: 'Desa Cijambe, Subang',
+	price: 'Rp 80.000 - Rp 160.000',
+	description: 'Belajar budidaya lebah dan panen madu organik.',
+	image: 'https://www.aciar.gov.au/sites/default/files/2021-12/DSC_8115%20copy_web.jpg',
+	maps: '',
+  },
+  {
+	title: 'Cycling Heritage Trail, Bandung',
+	location: 'Braga - Asia Afrika - Alun-alun Bandung',
+	price: 'Rp 75.000 - Rp 150.000',
+	description: 'Bersepeda menjelajahi sejarah dan arsitektur kota Bandung.',
+	image: 'https://www.mainsepeda.com/uploads/post/2018/10/07/IMG-20181007-WA0095.jpg',
+	maps: '',
+  }
+]
 
 const SustainableExperience = () => {
 	const scrollRef = useRef<HTMLDivElement>(null);
@@ -181,24 +230,24 @@ const SustainableExperience = () => {
 												className="rounded-t-lg w-full h-40 object-cover"
 											/>
 										)}
-										<div className="p-6 flex flex-col h-full justify-between">
-											<div>
-												<div className="flex items-center text-gray-500 text-sm mb-2">
-													<MapPin className="h-4 w-4 mr-1" />
-													{exp.location}
-												</div>
-												<h3 className="text-xl font-bold text-gray-800 mb-2">
-													{exp.title}
-												</h3>
-												<p className="text-gray-600 mb-4 text-sm leading-relaxed">
-													{exp.description}
-												</p>
-											</div>
-											<div className="flex items-center text-green-600 mt-2">
-												<DollarSign className="h-4 w-4 mr-1" />
-												<span className="text-sm font-medium">{exp.price}</span>
-											</div>
-										</div>
+  <div className="p-6 flex flex-col h-full justify-between">
+	<div>
+	  <div className="flex items-center text-gray-500 text-sm mb-2">
+		<MapPin className="h-4 w-4 mr-1" />
+		{exp.location}
+	  </div>
+	  <h3 className="text-xl font-bold text-gray-800 mb-2">
+		{exp.title}
+	  </h3>
+	  <div className="flex items-center text-green-600 mb-2">
+		<DollarSign className="h-4 w-4 mr-1" />
+		<span className="text-sm font-medium">{exp.price}</span>
+	  </div>
+	  <p className="text-gray-600 mb-4 text-sm leading-relaxed">
+		{exp.description}
+	  </p>
+	</div>
+  </div>
 									</div>
 								))}
 							</div>
