@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, X, Leaf } from 'lucide-react';
 
@@ -34,7 +34,7 @@ const Navbar = () => {
           <Link to="/" className="flex items-center space-x-2 mr-8">
             <Leaf className={`h-8 w-8 ${isScrolled ? 'text-green-600' : 'text-white'}`} />
             <span className={`text-xl font-bold ${isScrolled ? 'text-gray-800' : 'text-white'}`}>
-              EcoJabar
+              jelajah jabar
             </span>
           </Link>
           {/* Desktop Navigation di tengah */}

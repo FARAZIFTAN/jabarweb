@@ -1,3 +1,32 @@
+/* SustainableDestinations custom background and scroll */
+.sustainable-bg {
+  background-image: url('https://images.pexels.com/photos/417173/pexels-photo-417173.jpeg?auto=compress&cs=tinysrgb&w=1920&q=80');
+}
+.sustainable-scroll {
+  -webkit-overflow-scrolling: touch;
+}
+.sustainable-smooth {
+  scroll-behavior: smooth;
+}
+/* Custom background images for Gastronomy page */
+.gastronomy-bg-1 {
+  background-image: url('https://images.pexels.com/photos/461382/pexels-photo-461382.jpeg?auto=compress&cs=tinysrgb&w=800&q=80');
+}
+.gastronomy-bg-2 {
+  background-image: url('https://images.pexels.com/photos/461940/pexels-photo-461940.jpeg?auto=compress&cs=tinysrgb&w=800&q=80');
+}
+.gastronomy-bg-3 {
+  background-image: url('https://images.pexels.com/photos/2081199/pexels-photo-2081199.jpeg?auto=compress&cs=tinysrgb&w=800&q=80');
+}
+.gastronomy-bg-4 {
+  background-image: url('https://images.pexels.com/photos/753626/pexels-photo-753626.jpeg?auto=compress&cs=tinysrgb&w=800&q=80');
+}
+.gastronomy-bg-5 {
+  background-image: url('https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=800&q=80');
+}
+.gastronomy-modal-shadow {
+  box-shadow: 0 12px 48px rgba(34,197,94,0.18);
+}
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
