@@ -8,7 +8,7 @@ const Home = () => {
 
   const sections = [
     {
-      title: "Destinasi Berkelanjutan",
+      title: "Sustainable Destination",
       description: "Jelajahi keindahan alam Jawa Barat secara bertanggung jawab. Dari hamparan kebun teh Pangalengan hingga pesona vulkanik Kawah Putih, temukan destinasi yang mengutamakan pelestarian lingkungan dan pengalaman tak terlupakan.",
       image: "https://images.pexels.com/photos/2662116/pexels-photo-2662116.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       imageAlt: "Lanskap indah Jawa Barat",
@@ -17,7 +17,7 @@ const Home = () => {
       ctaAction: () => navigate('/destinations')
     },
     {
-      title: "Pengalaman Berkelanjutan",
+      title: "Sustained Experience",
       description: "Rasakan pengalaman budaya otentik yang mendukung komunitas lokal. Ikuti workshop batik tradisional, pelajari teknik pertanian organik, dan berinteraksi dengan pengrajin yang menjaga tradisi sekaligus menerapkan praktik berkelanjutan.",
       image: "https://images.pexels.com/photos/6128025/pexels-photo-6128025.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       imageAlt: "Workshop batik tradisional",

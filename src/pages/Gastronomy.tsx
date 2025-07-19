@@ -937,7 +937,7 @@ const Gastronomy = () => {
   return (
     <div>
       <Hero
-        title="jelajah jabar"
+        title="exploring West Java"
         subtitle="Kuliner khas Sunda yang segar, gurih, dan kaya tradisi"
         backgroundImage="https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
       />

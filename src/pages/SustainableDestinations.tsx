@@ -217,7 +217,7 @@ const SustainableDestinations = () => {
   return (
 	<div>
 	  <Hero
-		title="jelajah jabar"
+		title="exploring West Java"
 		subtitle="15 Hidden Gem Alam Jawa Barat & Sekitarnya"
 		backgroundImage="https://images.pexels.com/photos/167684/pexels-photo-167684.jpeg?auto=compress&cs=tinysrgb&w=1920&q=80"
 	  />
