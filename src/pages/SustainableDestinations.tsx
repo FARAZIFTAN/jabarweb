@@ -215,13 +215,13 @@ const SustainableDestinations = () => {
 	  : destinations.filter((d) => d.category === selectedCategory);
 
   return (
-	<div>
-	  <Hero
-		title="exploring West Java"
-		subtitle="15 Hidden Gem Alam Jawa Barat & Sekitarnya"
-		backgroundImage="https://images.pexels.com/photos/167684/pexels-photo-167684.jpeg?auto=compress&cs=tinysrgb&w=1920&q=80"
-	  />
-	  <div className="relative py-16 bg-cover bg-center sustainable-bg">
+   <div>
+	 <Hero
+	   title="exploring West Java"
+	   subtitle="15 Hidden Gem Alam Jawa Barat & Sekitarnya"
+	   backgroundImage="https://images.pexels.com/photos/167684/pexels-photo-167684.jpeg?auto=compress&cs=tinysrgb&w=1920&q=80"
+	 />
+	 <div className="relative py-16 bg-cover bg-center sustainable-bg">
 		<div className="absolute inset-0 bg-black/40 backdrop-blur-sm"></div>
 		<div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 		  <div className="text-center mb-12">

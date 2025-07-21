@@ -60,10 +60,9 @@ const Home = () => {
         title="Sustainable Tourism in West Java"
         subtitle="Experience the beauty of nature while preserving it for future generations"
         backgroundImage="https://images.pexels.com/photos/753626/pexels-photo-753626.jpeg?auto=compress&cs=tinysrgb&w=1920&q=80"
-        ctaText="Start Your Journey"
-        ctaAction={() => navigate('/destinations')}
+        ctaText="Ringkasan Jawa Barat Lestari"
+        ctaAction={() => navigate('/jabar-summary')}
       />
-      
       <div className="bg-stone-50">
         {/* Section Knowledge */}
         <div className="max-w-7xl mx-auto px-2 sm:px-4 lg:px-6 py-6">
@@ -97,7 +96,7 @@ const Home = () => {
                 </div>
               </div>
               <div className="mt-2">
-                {/* Button 'Belajar Lestari' dihapus sesuai permintaan */}
+                {/* Tombol Ringkasan dipindahkan ke atas halaman */}
               </div>
             </div>
             <div className="hidden md:flex justify-center relative z-20">

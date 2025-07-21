@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, X, Leaf } from 'lucide-react';
+import logo1 from '../assets/images/logo1.svg';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -32,9 +33,9 @@ const Navbar = () => {
         <div className="flex items-center h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2 mr-8">
-            <Leaf className={`h-8 w-8 ${isScrolled ? 'text-green-600' : 'text-white'}`} />
+            <img src={logo1} alt="Logo Jelajah Jabar" className={`h-32 w-32 object-contain drop-shadow-lg ${isScrolled ? '' : ''}`} />
             <span className={`text-xl font-bold ${isScrolled ? 'text-gray-800' : 'text-white'}`}>
-              exploring West Java
+           
             </span>
           </Link>
           {/* Desktop Navigation di tengah */}
