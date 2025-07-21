@@ -18,10 +18,10 @@ const JabarSummary: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-14">
           {/* Gunung */}
-          <div className="relative rounded-2xl shadow-xl p-8 border border-green-100 hover:shadow-2xl transition-all duration-200 overflow-hidden">
+          <div className="relative rounded-2xl shadow-lg p-8 border border-green-200 backdrop-blur-md bg-white/30 hover:bg-white/50 hover:shadow-2xl transition-all duration-300 overflow-hidden group">
             <img src='https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg?auto=compress&fit=crop&w=800&q=80' alt='Gunung' className='absolute inset-0 w-full h-full object-cover opacity-30 z-0' />
             <div className='relative z-10'>
-              <h2 className="text-2xl font-extrabold text-green-900 mb-3 flex items-center gap-2 font-serif drop-shadow-lg"><Mountain className="inline-block h-6 w-6 text-green-700" /> Gunung di Jawa Barat</h2>
+              <h2 className="text-2xl font-extrabold text-green-900 mb-3 flex items-center gap-2 font-serif drop-shadow-lg group-hover:text-emerald-700 transition-colors duration-300"><Mountain className="inline-block h-6 w-6 text-green-700 group-hover:text-emerald-700 transition-colors duration-300" /> Gunung di Jawa Barat</h2>
               <p className="text-green-900 text-base mb-3 font-medium">Jawa Barat memiliki banyak gunung, terutama karena merupakan bagian dari Cincin Api Pasifik.<br />Jumlah Gunung: <span className="font-bold">± 30 gunung</span></p>
               <ul className="list-disc ml-5 text-green-900 text-base font-semibold">
                 <li>Gunung Gede (2.958 mdpl)</li>
@@ -34,10 +34,10 @@ const JabarSummary: React.FC = () => {
             </div>
           </div>
           {/* Pantai */}
-          <div className="relative rounded-2xl shadow-xl p-8 border border-blue-100 hover:shadow-2xl transition-all duration-200 overflow-hidden">
+          <div className="relative rounded-2xl shadow-lg p-8 border border-blue-200 backdrop-blur-md bg-white/30 hover:bg-white/50 hover:shadow-2xl transition-all duration-300 overflow-hidden group">
             <img src='https://images.pexels.com/photos/457882/pexels-photo-457882.jpeg?auto=compress&fit=crop&w=800&q=80' alt='Pantai' className='absolute inset-0 w-full h-full object-cover opacity-30 z-0' />
             <div className='relative z-10'>
-              <h2 className="text-xl font-bold text-blue-900 mb-2 flex items-center gap-2 font-serif drop-shadow-lg"><Globe className="inline-block h-5 w-5 text-blue-700" /> Pantai di Jawa Barat</h2>
+              <h2 className="text-xl font-bold text-blue-900 mb-2 flex items-center gap-2 font-serif drop-shadow-lg group-hover:text-blue-700 transition-colors duration-300"><Globe className="inline-block h-5 w-5 text-blue-700 group-hover:text-blue-900 transition-colors duration-300" /> Pantai di Jawa Barat</h2>
               <p className="text-blue-900 text-sm mb-2 font-medium">Pantai-pantai di Jawa Barat umumnya berada di pesisir selatan, menghadap Samudra Hindia.<br />Jumlah Pantai: <span className="font-semibold">± 40 pantai</span></p>
               <ul className="list-disc ml-5 text-blue-900 text-sm font-semibold">
                 <li>Pantai Pangandaran</li>
@@ -50,10 +50,10 @@ const JabarSummary: React.FC = () => {
             </div>
           </div>
           {/* Taman/Kawasan Konservasi */}
-          <div className="relative rounded-2xl shadow-xl p-8 border border-emerald-100 hover:shadow-2xl transition-all duration-200 overflow-hidden">
+          <div className="relative rounded-2xl shadow-lg p-8 border border-emerald-200 backdrop-blur-md bg-white/30 hover:bg-white/50 hover:shadow-2xl transition-all duration-300 overflow-hidden group">
             <img src='https://images.pexels.com/photos/34950/pexels-photo.jpg?auto=compress&fit=crop&w=800&q=80' alt='Taman' className='absolute inset-0 w-full h-full object-cover opacity-30 z-0' />
             <div className='relative z-10'>
-              <h2 className="text-xl font-bold text-emerald-900 mb-2 flex items-center gap-2 font-serif drop-shadow-lg"><Leaf className="inline-block h-5 w-5 text-emerald-700" /> Taman & Kawasan Konservasi</h2>
+              <h2 className="text-xl font-bold text-emerald-900 mb-2 flex items-center gap-2 font-serif drop-shadow-lg group-hover:text-emerald-700 transition-colors duration-300"><Leaf className="inline-block h-5 w-5 text-emerald-700 group-hover:text-emerald-900 transition-colors duration-300" /> Taman & Kawasan Konservasi</h2>
               <p className="text-emerald-900 text-sm mb-2 font-medium">Termasuk taman nasional, taman wisata alam, dan taman kota.<br />Jumlah: <span className="font-semibold">± 15 kawasan besar</span></p>
               <ul className="list-disc ml-5 text-emerald-900 text-sm font-semibold">
                 <li>Taman Nasional Gunung Gede Pangrango</li>
@@ -66,10 +66,10 @@ const JabarSummary: React.FC = () => {
           </div>
         </div>
         {/* Kalender Rekomendasi */}
-        <div className="relative rounded-2xl shadow-xl p-8 mb-10 border border-yellow-100 overflow-hidden">
+        <div className="relative rounded-2xl shadow-lg p-8 mb-10 border border-yellow-200 backdrop-blur-md bg-white/30 hover:bg-white/50 hover:shadow-2xl transition-all duration-300 overflow-hidden group">
           <img src='https://images.pexels.com/photos/417173/pexels-photo-417173.jpeg?auto=compress&fit=crop&w=800&q=80' alt='Kalender' className='absolute inset-0 w-full h-full object-cover opacity-30 z-0' />
           <div className='relative z-10'>
-            <h2 className="text-2xl font-bold text-green-900 mb-6 flex items-center gap-2 font-serif drop-shadow-lg"><Star className="inline-block h-6 w-6 text-yellow-500" /> Kalender Rekomendasi: <span className="text-yellow-700 font-semibold">Memorable Moment Jawa Barat Lestari</span></h2>
+            <h2 className="text-2xl font-bold text-green-900 mb-6 flex items-center gap-2 font-serif drop-shadow-lg group-hover:text-yellow-700 transition-colors duration-300"><Star className="inline-block h-6 w-6 text-yellow-500 group-hover:text-yellow-700 transition-colors duration-300" /> Kalender Rekomendasi<span className="text-yellow-700 font-semibold"></span></h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {/* Bulanan */}
             <div>
